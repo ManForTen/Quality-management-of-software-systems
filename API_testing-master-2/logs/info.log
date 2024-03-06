@@ -1,0 +1,32 @@
+30: 2024-03-07 01:06:21,280 test_get_objects:
+25: 2024-03-07 01:06:21,303 GET /objects
+30: 2024-03-07 01:06:21,817 test_get_objects_id_param[param0]:
+25: 2024-03-07 01:06:21,817 GET /objects
+30: 2024-03-07 01:06:22,346 test_get_objects_id_param[param1]:
+25: 2024-03-07 01:06:22,346 GET /objects
+30: 2024-03-07 01:06:22,869 test_get_objects_not_exist_id:
+25: 2024-03-07 01:06:22,869 GET /objects
+30: 2024-03-07 01:06:23,209 test_get_objects_invalid_id:
+25: 2024-03-07 01:06:23,209 GET /objects
+30: 2024-03-07 01:06:23,468 test_get_object:
+25: 2024-03-07 01:06:23,468 GET /objects/7
+30: 2024-03-07 01:06:23,639 test_get_object_not_exist:
+25: 2024-03-07 01:06:23,640 GET /objects/1593576458
+30: 2024-03-07 01:06:23,835 test_post_object_empty_body:
+25: 2024-03-07 01:06:23,836 POST /objects
+30: 2024-03-07 01:06:24,007 test_post_object_with_full_body:
+25: 2024-03-07 01:06:24,008 POST /objects
+30: 2024-03-07 01:06:24,189 test_post_object_send_invalid_json:
+25: 2024-03-07 01:06:24,189 POST /objects
+30: 2024-03-07 01:06:24,356 test_put_object_with_empty_body:
+25: 2024-03-07 01:06:24,356 POST /objects
+30: 2024-03-07 01:06:24,530 test_put_object_with_full_body:
+25: 2024-03-07 01:06:24,531 POST /objects
+30: 2024-03-07 01:06:24,704 test_put_object_send_invalid_json:
+25: 2024-03-07 01:06:24,704 POST /objects
+30: 2024-03-07 01:06:24,879 test_put_object_update_non_exist_obj:
+25: 2024-03-07 01:06:24,880 PUT /objects/ff8081818a194cb8018a79e7545545ac
+30: 2024-03-07 01:06:25,045 test_delete_exist_object:
+25: 2024-03-07 01:06:25,045 POST /objects
+30: 2024-03-07 01:06:25,203 test_delete_not_exist_object:
+25: 2024-03-07 01:06:25,204 DELETE /objects/ff8081818a194cb8018a79e7545545ac
