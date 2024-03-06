@@ -1,0 +1,40 @@
+30: 2024-03-07 00:48:55,046 test_get_objects:
+25: 2024-03-07 00:48:55,067 GET /objects
+30: 2024-03-07 00:48:55,775 test_get_objects_id_param[param0]:
+25: 2024-03-07 00:48:55,776 GET /objects
+30: 2024-03-07 00:48:56,112 test_get_objects_id_param[param1]:
+25: 2024-03-07 00:48:56,112 GET /objects
+30: 2024-03-07 00:48:56,482 test_get_objects_not_exist_id:
+25: 2024-03-07 00:48:56,482 GET /objects
+30: 2024-03-07 00:48:56,869 test_get_objects_invalid_id:
+25: 2024-03-07 00:48:56,870 GET /objects
+30: 2024-03-07 00:48:57,203 test_get_object:
+25: 2024-03-07 00:48:57,205 GET /objects/7
+30: 2024-03-07 00:48:57,469 test_get_object_not_exist:
+25: 2024-03-07 00:48:57,470 GET /objects/1593576458
+30: 2024-03-07 00:48:57,794 test_post_object_empty_body:
+25: 2024-03-07 00:48:57,795 POST /objects
+25: 2024-03-07 00:48:58,075 GET /objects/ff8081818dfdd992018e15bdb51d1bb1
+30: 2024-03-07 00:48:58,432 test_post_object_with_full_body:
+25: 2024-03-07 00:48:58,436 POST /objects
+25: 2024-03-07 00:48:58,737 GET /objects/ff8081818dfdd992018e15bdb7a21bb2
+30: 2024-03-07 00:48:59,047 test_post_object_send_invalid_json:
+25: 2024-03-07 00:48:59,048 POST /objects
+30: 2024-03-07 00:48:59,969 test_put_object_with_empty_body:
+25: 2024-03-07 00:48:59,971 POST /objects
+25: 2024-03-07 00:49:00,371 PUT /objects/ff8081818dfdd992018e15bdbd9d1bb3
+25: 2024-03-07 00:49:00,755 GET /objects/ff8081818dfdd992018e15bdbd9d1bb3
+30: 2024-03-07 00:49:01,197 test_put_object_with_full_body:
+25: 2024-03-07 00:49:01,198 POST /objects
+25: 2024-03-07 00:49:01,480 PUT /objects/ff8081818dfdd992018e15bdc2691bb4
+25: 2024-03-07 00:49:02,316 GET /objects/ff8081818dfdd992018e15bdc2691bb4
+30: 2024-03-07 00:49:02,575 test_put_object_send_invalid_json:
+25: 2024-03-07 00:49:02,576 POST /objects
+25: 2024-03-07 00:49:02,865 PUT /objects/ff8081818dfdd992018e15bdc7ca1bb5
+30: 2024-03-07 00:49:03,245 test_put_object_update_non_exist_obj:
+25: 2024-03-07 00:49:03,246 PUT /objects/ff8081818a194cb8018a79e7545545ac
+30: 2024-03-07 00:49:03,515 test_delete_exist_object:
+25: 2024-03-07 00:49:03,516 POST /objects
+25: 2024-03-07 00:49:03,853 DELETE /objects/ff8081818dfdd992018e15bdcb711bb6
+30: 2024-03-07 00:49:04,134 test_delete_not_exist_object:
+25: 2024-03-07 00:49:04,135 DELETE /objects/ff8081818a194cb8018a79e7545545ac
